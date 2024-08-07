@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+*{
+    font-family: 'Montserrat';
+}
+.top.swiper-button-next:after, .top.swiper-button-prev:after {
+    font-size: 1em!important;
+    text-transform: none !important;
+    color:white
+}
+.banner.swiper-button-next:after, .banner.swiper-button-prev:after {
+    font-size: 2em!important;
+    text-transform: none !important;
+    color:white
+}
+.frase{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+.nav-link:hover{
+    color: #BE1C27!important;
+    font-weight: bold;
+}
+.slider-banner{
+    position: relative;
+}
+.swiper-pagination{
+    bottom: -1.5em!important;
+}
+.categoria-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.texto-categoria{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.categoria-content .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+}
+.categorias h2,
+.servicios h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2em auto;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.numero img {
+    width: 16px;
+    height: 16px;
+}
+.numero {
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.field input,
+textarea {
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+textarea{
+    height: 120px;
+    resize: none!important;
+}
+label {
+    margin-bottom: 5px;
+}
+input#button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+/*Desktop*/
+@media screen and (min-width: 60em){
+    .topbar{
+        height: 40px;
+        background-color: #BE1C27;
+        color: white;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar-brand img{
+        width: 190px;
+    }
+    .navbar{
+        height: 110px;
+    }
+    .categorias {
+        width: 80%;
+        margin: auto;
+    }
+    .categoria-content .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        flex-direction: column;
+    }
+    a.button {
+        width: 320px;
+        display: block;
+        background-color: #BE1C27!important;
+        margin: 10px;
+        color: white!important;
+        font-size: 1.4em;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+
+    }
+    a.button:hover {
+        background-color: black!important;
+        transition-duration: .4s;
+        letter-spacing: 1px;
+    }
+    .btn-servicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .como-trabajamos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECECEC;
+        margin-top: 5em;
+    }
+    .texto-trabajo, 
+    .pasos-trabajo {
+        width: 50%;
+        padding: 4em;
+    }
+    .texto-trabajo h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .pasos-trabajo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2em;
+    }
+    .pasos-trabajo .contenido {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #D9D9D9;
+        position: relative;
+        padding: 1em;
+    }
+    .img-pasos {
+        width: 64px;
+    }
+    .contenido p {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    .siguiente {
+        position: absolute;
+        right: -30px;
+    }
+    .quienes-somos {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: row;
+        margin-top: 1em;
+    }
+    .texto-nosotros {
+        width: 50%;
+        padding: 4em;
+    }
+    .texto-nosotros h2 {
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .texto-nosotros hr {
+        color: #BE1C27;
+        border: 2px solid #BE1C27;
+        opacity: 1;
+    }
+    .foter-contacto {
+        background-image: url('/assets/fondo-footer-desktop.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes {
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 20px;
+    }
+    .redes p {
+        margin-bottom: 0;
+    }
+    .redes-img {
+        width: 35px;
+        margin: 10px;
+    }
+    .texto-contacto,
+    .form-contacto {
+        width: 45%;
+        padding: 4em;
+        margin-top: 5em;
+        color: white;
+    }
+    .texto-contacto h3 {
+        font-size: 2.3em;
+    }
+    .form-contacto h3 {
+        font-size: 2.3em;
+        font-weight: 900;
+    }
+    .contacto img {
+        width: 40px;
+    }
+    .contacto {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2em;
+        height: 3em;
+    }
+    .contacto a:hover {
+        background-color: black;
+        padding: 1em;
+        border-radius: 100%;
+        transition-duration: .4s;
+    }
+    .contacto a {
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 40em) and (max-width:60em){
+    .topbar{
+        height: 40px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        position: relative;
+    }
+    
+}
+/*Mobile*/
+@media screen and (max-width: 40em){
+    .topbar{
+        height: 40px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        position: relative;
+    }
+    
+}

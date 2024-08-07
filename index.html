@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carxim</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('g0VIkH5D5phvLPaf-')</script>
+</head>
+<body>
+    <header>
+            <!-- Topbar -->
+            <div class="topbar">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide frase">Bienvenidos a  nuestra web, ¡Personaliza tu estilo con nuestros estampados únicos!.</div>
+                    <div class="swiper-slide frase">Te ayudamos a diferenciar tu marca con la mejor calidad en confecciones.</div>
+                </div>
+                <div class="swiper-button-prev top"></div>
+                <div class="swiper-button-next top"></div>
+            </div>
+
+            <!-- Menú -->
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid px-5">
+                  <a class="navbar-brand" href="#">
+                    <img src="/assets/logo-carxim.png" alt="Logotipo Carxim Spa, confecciones, estampados y bordados personalizados">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Como comprar</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contáctanos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </header>
+    <!--Banner superior-->
+    <div class="slider-banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <picture>
+                    <source media="(min-width: 40em)" srcset="/assets/1.png" sizes="">
+                    <img alt="Estampa con nosotros tu ropa institucional" srcset="/assets/banner-mobile-1.png" width="100%" style=" filter: brightness(90%);">
+                </picture>
+            </div>
+            <div class="swiper-slide">
+                <picture>
+                    <source media="(min-width: 40em)" srcset="/assets/2.png" sizes="">
+                    <img alt="Estampa con nosotros tu ropa institucional" srcset="/assets/banner-mobile-2.png" width="100%">
+                </picture>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev banner"></div>
+        <div class="swiper-button-next banner"></div>
+    </div>
+    <!--Compra por categoría-->
+    <div class="categorias">
+        <h2>Algunos de nuestros productos</h2>
+        <div class="categoria-content">
+            <a class="contenedor" href="https://wa.me/56964208202?text=Hola,%20me%20encuentro%20interesado%20en%20la%20confección%20de%20pantalones" target="_blank">
+                <img src="/assets/pantalon.png" alt="Categoría pantalones">
+                <p class="texto-categoria">Pantalones</p>
+            </a>
+            <a class="contenedor" href="">
+                <img src="/assets/poolera.png" alt="Categoría Poleras">
+                <p class="texto-categoria">Poleras</p>
+            </a>
+            <a class="contenedor" href="">
+                <img src="/assets/poleron.png" alt="Categoría Polerones">
+                <p class="texto-categoria">Polerones</p>
+            </a>
+            <a class="contenedor" href="">
+                <img src="/assets/gorra.png" alt="Categoría Gorros">
+                <p class="texto-categoria">Gorros</p>
+            </a>
+            <a class="contenedor" href="">
+                <img src="/assets/tazon.png" alt="Categoría Tazones">
+                <p class="texto-categoria">Tazones</p>
+            </a>
+            <a class="contenedor" href="">
+                <img src="/assets/accesorios-de-escritorio.png" alt="Categoría Artículos de oficina">
+                <p class="texto-categoria">Artículos de oficina</p>
+            </a>
+        </div>
+    </div>
+    <!-- Nuestros servicios -->
+    <div class="servicios">
+        <h2>Cotiza algunos de nuestros servicios</h2>
+        <div class="btn-servicio">
+            <a href="https://wa.me/56964208202?text=Hola,%20me%20encuentro%20interesado%20en%20el%20servicio%20de%20estampado.%20" target="_blank" class="button">Estampados</a>
+            <a href="https://wa.me/56964208202?text=Hola,%20me%20encuentro%20interesado%20en%20el%20servicio%20de%20bordado%20" target="_blank" class="button">Bordados</a>
+            <a href="https://wa.me/56964208202?text=Hola,%20me%20encuentro%20interesado%20en%20el%20servicio%20de%20confección%20" target="_blank" class="button">Vestuario</a>
+        </div>
+    </div>
+    <!--Como Trabajamos-->
+    <div class="como-trabajamos">
+        <div class="texto-trabajo">
+            <h2>¿Como <br>trabajamos?</h2>
+            <p>Nos destacamos por entregarte un servicio <strong>eficaz</strong>, escuchamos tus necesidades y te ayudamos a tomar la mejor decision de la mano de nuestros expertos en <strong>confecciónes y diseño de prendas</strong>.</p>
+        </div>
+        <div class="pasos-trabajo">
+            <div class="contenido">
+                <div class="siguiente"><img src="/assets/flecha-correcta.png" alt=""></div>
+                <div class="numero"><img src="/assets/numero-1.png" alt="Paso uno"></div>
+                <img src="/assets/telefono-movil.png" class="img-pasos" alt="Contactanos">
+                <p>Contáctanos</p>
+            </div>
+            <div class="contenido">
+                <div class="siguiente"><img src="/assets/flecha-correcta.png" alt=""></div>
+                <div class="numero"><img src="/assets/numero-2.png" alt="Paso dos"></div>
+                <img src="/assets/burbuja-de-dialogo.png" class="img-pasos" alt="Contactanos">
+                <p>Cuentanos tu idea</p>
+            </div>
+            <div class="contenido">
+                <div class="numero"><img src="/assets/numero-3.png" alt="Paso tres"></div>
+                <img src="/assets/asesoramiento.png" class="img-pasos" alt="Contactanos">
+                <p>Te asesoramos</p>
+            </div>
+            <div class="contenido">
+                <div class="siguiente"><img src="/assets/flecha-correcta.png" alt=""></div>
+                <div class="numero"><img src="/assets/numero-4.png" alt="Paso cuatro"></div>
+                <img src="/assets/propuesta.png" class="img-pasos" alt="Contactanos">
+                <p>Recibe una propuesta</p>
+            </div>
+            <div class="contenido">
+                <div class="siguiente"><img src="/assets/flecha-correcta.png" alt=""></div>
+                <div class="numero"><img src="/assets/numero-5.png" alt="Paso cinco"></div>
+                <img src="/assets/linea-de-produccion.png" class="img-pasos" alt="Contactanos">
+                <p>Trabajamos en tu producto</p>
+            </div>
+            <div class="contenido">
+                <div class="numero"><img src="/assets/numero-6.png" alt="Paso seis"></div>
+                <img src="/assets/flota.png" class="img-pasos" alt="Contactanos">
+                <p>Despachamos tu pedido</p>
+            </div>
+        </div>
+    </div>
+    <!-- Quienes somos-->
+    <div class="quienes-somos">
+        <div class="texto-nosotros">
+            <h2>Quienes somos</h2>
+            <hr>
+            <p>Queremos brindar soluciones <strong>personalizada</strong> para empresas que desean promocionar su marca de una manera <strong>única y efectiva</strong>.</p>
+            <p>Contamos con una amplia variedad de productos, desde <strong>prendas de ropa</strong> y <strong>accesorios</strong>, todos ellos personalizables con el logotipo y diseño de cada empresa. Nos enorgullece ofrecer productos de alta calidad, atención al cliente excepcional y tiempos de entrega rápidos.</p>
+            <p>Trabajamos en estrecha colaboración con nuestros clientes para asegurarnos de que sus necesidades y expectativas se cumplan en cada pedido. Confíe en <strong>CARXIM</strong> para obtener los mejores productos corporativos personalizados.</p>
+        </div>
+        <div class="texto-nosotros">
+            <h2>¿Qué nos hace diferentes?</h2>
+            <hr>
+            <p><strong>Compromiso</strong>: Nos comprometemos a entregar un  servicio excepcional y a formar una  asociación duradera.</p>
+            <p><strong>Transparencia</strong>: Somos honestos y transparentes en todos  nuestros procesos, desde la cotización  hasta la entrega final.</p>
+            <p><strong>Lealtad</strong>: Demostramos lealtad a nuestros clientes,  trabajando incansablemente para  satisfacer sus necesidades.</p>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="foter-contacto">
+            <div class="texto-contacto">
+                <h3>Diseñamos tu idea <br> <strong>a la medida</strong></h3>
+                <p>Ponte en contacto con nuestro equipo de expertos para recibir una <strong>asesoría y evaluar tu proyecto</strong>.</p>
+                <p>Contrata nuestros servicios y obten una experiencia <strong>personalizada</strong> y de gran <strong>calidad</strong>.</p>
+                <p><strong>¿Tienes alguna duda?</strong>, puedes llamarnos o escribirnos un correo electrónico.</p>
+                <div class="contacto">
+                    <a href="tel:+56964208202"><img src="/assets/llamada-telefonica.png" alt="Contacto telefónico"></a>
+                    <a href="mailto:ejemplo@dominio.com"><img src="/assets/correo.png" alt="Contacto correo electrónico"></a>
+                </div>
+            </div>
+            <div class="form-contacto">
+                <h3>Contáctanos</h3>
+                <form id="form">
+                    <div class="field">
+                      <label for="to_name">Tu nombre</label>
+                      <input type="text" name="name" id="name">
+                    </div>
+                    <div class="field">
+                      <label for="from_name">Correo Electrónico</label>
+                      <input type="text" name="email" id="email">
+                    </div>
+                    <div class="field">
+                      <label for="message">Cuéntanos tu idea</label>
+                      <textarea name="message" id="message"></textarea>
+                    </div>
+                    <input type="submit" id="button" value="Enviar" >
+                </form>
+            </div>
+        </div>
+        <div class="redes">
+            <p>Copyright © Todos los derechos reservados <strong>CARXIMSPA</strong></p>
+            <div class="redes-icon">
+                <a href="https://www.instagram.com/carxim.cl" target="_blank"><img src="/assets/instagram.png" class="redes-img" alt="Contacto instagram"></a>
+                <a href="https://www.facebook.com/people/Carxim/61561583404454/?mibextid=ZbWKwL" target="_blank"><img src="/assets/facebook.png" class="redes-img" alt="Contacto Facebook"></a>
+                <a href="https://wa.me/56964208202" target="_blank"><img src="/assets/whatsapp.png" class="redes-img" alt="Contacto What's app"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
